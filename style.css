@@ -1,7 +1,7 @@
 /* style.css */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Times New Roman, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -22,11 +22,16 @@ body {
 }
 
 .custom-font-size {
-    font-size: 70px; /* Change this font size as desired */
+    font-size: 100px; /* Change this font size as desired */
 }
 
 .custom-background {
     background-color: black; /* Change this color as desired */
     padding: 15px; /* Adjust padding as desired */
     display: block; /* Stretch background to full width */
+}
+
+/* New class for increased font size */
+.custom-large-font {
+  font-size: 30px; /* Adjust font size as desired */
 }
