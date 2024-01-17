@@ -1,0 +1,39 @@
+/* style.css */
+
+body {
+    font-family: Times New Roman, sans-serif;
+    margin: 20;
+    padding: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Use min-height to ensure background covers entire viewport */
+    background-color: gray; /* Set background color for the entire page */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+}
+
+.center-container {
+    text-align: center;
+}
+
+.custom-color {
+    color: #3498db; /* Change this color as desired */
+}
+
+.custom-font-size {
+    font-size: 100px; /* Change this font size as desired */
+}
+
+.custom-background {
+    background-color: black; /* Change this color as desired */
+    padding: 15px; /* Adjust padding as desired */
+    display: block; /* Stretch background to full width */
+}
+
+/* New class for increased font size */
+.custom-large-font {
+  font-size: 40px; /* Adjust font size as desired */
+}
+.custom-font {
+  font-size: 25px; /* Adjust font size as desired */
